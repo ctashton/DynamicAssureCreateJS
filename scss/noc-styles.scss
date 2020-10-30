@@ -129,7 +129,7 @@
 				display: block;
 				position: absolute;
 				content: '';
-				background-image: url("/sites/default/files/media/noc-element-base-shadow.png");
+				background-image: url("sites/default/files/media/noc-element-base-shadow.png");
 				background-size: contain;
 				background-repeat: no-repeat;
 				background-position: bottom;
@@ -350,7 +350,7 @@
 }
 
 _:-ms-fullscreen, :root .noc-bg-lines {
-  background-image: url("/sites/default/files/media/noc-network-lines_1.png");
+  background-image: url("sites/default/files/media/noc-network-lines_1.png");
   background-size: 85% !important;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -374,7 +374,7 @@ _:-ms-fullscreen, :root .noc-bg-lines {
 		}
 		overflow: hidden;
 		padding-bottom: calc(48.5% + 100px);
-		background-image: url("/sites/default/files/media/noc-bg-buildings-top_1.png"), url("/sites/default/files/media/noc-bg-buildings-lower_1.png");
+		background-image: url("sites/default/files/media/noc-bg-buildings-top_1.png"), url("sites/default/files/media/noc-bg-buildings-lower_1.png");
 		background-repeat: no-repeat;
 		background-size: 100%, 100%;
 		background-position: center -140px, center 135%;
@@ -604,7 +604,7 @@ _:-ms-fullscreen, :root .noc-bg-lines {
 		}
 		.noc-element.muted {
 			transform: scale(0.95);
-			background-image: url("/sites/default/files/media/noc-element-base.png");
+			background-image: url("sites/default/files/media/noc-element-base.png");
 			.noc-element-base {
 				opacity: 0 !important;
 			}
