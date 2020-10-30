@@ -87,7 +87,7 @@
 
    			});
 
-   			$(".poster-link").click(function(e) {
+   			$('body).on('click', ".poster-link", function(e) {
 
    				var modalContent = $("#assure-content-image");
    				var post_link = $(this).children('.noc-text').html();
